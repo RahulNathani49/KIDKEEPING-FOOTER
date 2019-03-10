@@ -1,0 +1,210 @@
+/*FOOTER-TOP*/
+
+.footer-top {
+    background-color: #232323;
+    color: white;
+ 
+}
+
+.footer-top  p{
+    font-size: 15px;
+    padding: 25px 0;
+    line-height: 1.7;
+}
+
+.footer-bottom {
+    background-color: black;
+}
+
+.footer-bottom p {
+    color: white;
+}
+
+.web-name h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    border-left: 3px solid rgba(221, 51, 51, 1);
+    padding: 10px 0;
+}
+
+.footer-top h3 {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.web-links ul {
+    padding: 15px 0;
+}
+
+.web-links a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    transition: .4s;
+}
+
+.web-links ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.web-links ul a:hover {
+    color: rgba(221, 51, 51, 1);
+    text-decoration: none;
+    transition: .4s;
+    margin-left: 5px;
+
+}
+
+.social-links {
+    padding: 25px 0;
+}
+
+.facebook::before {
+    content: '';
+    width: 40px;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    background-color: #3b5998;
+}
+
+.facebook:hover::before {
+    height: 100%;
+    transition: .5s;
+}
+
+.instagram::before {
+    content: '';
+    width: 40px;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    background-color: #E1306C;
+}
+
+.instagram:hover::before {
+    height: 100%;
+    transition: .5s;
+}
+
+.twitter::before {
+    content: '';
+    width: 40px;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    background-color: #1da1f3;
+}
+
+.twitter:hover::before {
+    height: 100%;
+    transition: .5s;
+}
+
+.social-links i {
+    position: relative;
+}
+
+.facebook,
+.twitter,
+.instagram {
+    width: 40px;
+    background-color: gray;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    position: relative;
+}
+.social-links a{
+    color:white;
+}
+.social-links a:hover{
+    color: white;
+}
+
+
+.underline {
+    width: 100%;
+    height: 2px;
+    background-color: lightgray;
+    border-radius: 1px;
+}
+
+.underline-left {
+    width: 40%;
+    height: 2px;
+    background-color: rgba(221, 51, 51, 1);
+    border-radius: 1px;
+}
+.faq{
+    padding: 25px 0;
+    list-style: none;
+}
+.faq li{
+    padding: 5px 0;
+}
+.faq a{
+    text-decoration: none;
+    color: rgba(221, 51, 51, 1);
+    
+}
+.faq a:hover{
+    text-decoration: underline;
+    color: coral;
+}
+
+.email-part input {
+ 
+    outline: none;
+    padding:5px;
+}
+.sub-but{
+    position: relative;
+}
+.email-part i{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: .3s;
+    font-size: 20px;
+}
+.email-part input[type="email"]:focus{
+    border: 2px solid rgba(221, 51, 51, 1);
+}
+.email-part input[type="text"]:focus{
+    border: 2px solid rgba(221, 51, 51, 1);
+}
+input[type="submit"]{
+    border:none!important;
+    background-color: gray;
+    padding: 7px;
+}
+.sub-but:hover>i{
+    margin-left: 5px;
+    transition: .3s;
+    cursor: pointer;
+    color:rgba(221, 51, 51, 1); 
+}
+.searchbut:hover>i{
+      transition: .3s;
+    cursor: pointer;
+    color:rgba(221, 51, 51, 1);
+   
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .footer-bottom p {
+        font-size: 12px;
+    }
+}
