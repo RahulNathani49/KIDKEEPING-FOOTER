@@ -61,8 +61,11 @@
 
 .social-links {
     padding: 25px 0;
+    overflow: auto;
 }
-
+.email-subscrition{
+    overflow: auto;
+}
 .facebook::before {
     content: '';
     width: 40px;
