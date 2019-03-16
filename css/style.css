@@ -76,7 +76,12 @@
     transition: .5s;
     background-color: #3b5998;
 }
-
+.contact ul li{
+    padding: 10px 0;
+}
+.contact ul{
+    list-style:none;
+}
 .facebook:hover::before {
     height: 100%;
     transition: .5s;
